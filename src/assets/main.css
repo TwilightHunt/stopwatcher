@@ -1,0 +1,15 @@
+@font-face {
+  font-family: "Typo Digit";
+  src: url("./fonts/typodigitdemo-vg9lv.ttf") format("truetype");
+  font-weight: 400;
+}
+
+body {
+  min-height: 100vh;
+  line-height: 1.6;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
