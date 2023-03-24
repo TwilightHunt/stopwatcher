@@ -86,14 +86,13 @@ const watchTime = () => {
   padding: 30px;
   border: 1px solid #000;
   border-radius: 20px;
-  width: 500px;
   background: #000;
   color: #86fd41;
   margin: 15px;
 }
 .stopwatcher__body__time {
   font-size: 5em;
-  line-height: 130%;
+  margin-bottom: 15px;
   font-family: "Typo Digit";
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -111,5 +110,16 @@ const watchTime = () => {
 .stopwatcher__body__button_negative {
   @include button(#f31e1e);
   background: #000000;
+}
+
+@media (max-width: 551px) {
+  .stopwatcher__body__time {
+    font-size: 4em;
+  }
+}
+@media (max-width: 450px) {
+  .stopwatcher__body__time {
+    font-size: 2em;
+  }
 }
 </style>
