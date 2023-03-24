@@ -3,9 +3,9 @@
     <div class="stopwatcher__body">
       <div class="stopwatcher__body__time">
         <div class="stopwatcher__body__time__hours">{{ data.hours }} :</div>
-        <div class="stopwatcher__body__time__hours">{{ data.minutes }} :</div>
-        <div class="stopwatcher__body__time__hours">{{ data.seconds }} :</div>
-        <div class="stopwatcher__body__time__hours">{{ data.miliseconds }}</div>
+        <div class="stopwatcher__body__time__minutes">{{ data.minutes }} :</div>
+        <div class="stopwatcher__body__time__seconds">{{ data.seconds }} :</div>
+        <div class="stopwatcher__body__time__miliseconds">{{ data.miliseconds }}</div>
       </div>
       <div class="stopwatcher__body__tools">
         <button class="stopwatcher__body__button_positive" @click="positiveFunction">
